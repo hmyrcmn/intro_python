@@ -1,4 +1,4 @@
-PRİNTF("MERHABA")
+print("merhaba")
 not1=int(input("1. notunuz:" ))
 not2=int(input("2.notunuz:"))
 ortalama=(not1+not2)/2
