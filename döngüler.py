@@ -1,6 +1,6 @@
 #for ve while döngüleri 
-sayılar =[1,3,5,7,9,12,19,21]
-for sayı in sayılar:
+sayilar =[1,3,5,7,9,12,19,21]
+for sayı in sayilar:
     print(sayı)
 isimler=["ayse","sümeyye","hümeyra"]
 for isim in isimler:
@@ -13,13 +13,9 @@ for n in name : # harfleri alt alta yazar
     print(n)   
 
 sayılar=[1,3,5,7,9,12]
-for sayı in sayılar
+for sayı in sayılar:
 
 
-ürünler=[]
-adet =int(input("kaç adet ürün :"))
-
- i=0
  while (i<adet):
      name =input("ürün ismi :")
 
@@ -44,10 +40,13 @@ while hak>0 :
         print(f"hakkınız bitti : tutlan sayı :{sayı}")
 
 ########## random.randit(2,100,5 )aralıgında rastegele sayı çetirdim
-
+i=0
 sayı=int(input("bir sayı giriniz: "))
 asalmı= True
 if sayı==1:
     print("1 sayısı asaldegildir: ")           
 for i in range(2,sayı):
-    if sayı%i==0
+    if sayı%i==0:
+        break
+    else:
+        print("asal")
